@@ -1,0 +1,2 @@
+PetaSAN is a new Open Source Scale-Out SAN solution which uses modern technologies that power many cloud deployments.
+The system is agile, scalable and provides data resilience, thanks to the advanced AI that is provided by PetaSAN’s Ceph-based architecture. This allows for the addition of storage nodes at any time without interruption. 
