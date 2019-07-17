@@ -4,3 +4,15 @@ The system is agile, scalable and provides data resilience, thanks to the advanc
 PetaSAN is designed to provide the user with highly available, clustered iSCSI hard disks. Multi-path iSCSI disks, each of which can be identified by a virtual IP address, provide fast I/O and link redundancy. 
 
 With PetaSAN the iSCSI drives are mapped by Ceph to multiple physical drives in the cluster. In the event of node failure those virtual IPs can be dynamically moved from one node to another in a client-transparent manner.
+
+PetaSAN is ideal for deployments that require high parallel I/O operations. Examples of use cases with high I/O demands are:
+- Big Data analytics
+- VMware vSphere deployments
+- MS Hyper-V implementations
+- Scalable shared file systems such as MS Scale-Out File Server (SOFS)
+- Database servers with multiple parallel transactions per second
+
+PetaSAN excels when it comes to providing users with a highly available, clustered iSCSI storage that is easy to deploy and a breeze to manage. 
+It makes things easy for system administrators by providing an intuitive point-and-click management interface while also allowing power users full access to the underlying system via command line. 
+
+PetaSAN can be fully integrated with modern Open Source IT infrastructure automation and management solutions such as Ansible, Puppet, SaltStack and more. 
