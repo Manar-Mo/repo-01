@@ -1,2 +1,6 @@
 PetaSAN is a new Open Source Scale-Out SAN solution which uses modern technologies that power many cloud deployments.
-The system is agile, scalable and provides data resilience, thanks to the advanced AI that is provided by PetaSAN’s Ceph-based architecture. This allows for the addition of storage nodes at any time without interruption. 
+The system is agile, scalable and provides data resilience, thanks to the advanced AI that is provided by PetaSAN’s Ceph-based architecture. This allows for the addition of storage nodes at any time without interruption.
+
+PetaSAN is designed to provide the user with highly available, clustered iSCSI hard disks. Multi-path iSCSI disks, each of which can be identified by a virtual IP address, provide fast I/O and link redundancy. 
+
+With PetaSAN the iSCSI drives are mapped by Ceph to multiple physical drives in the cluster. In the event of node failure those virtual IPs can be dynamically moved from one node to another in a client-transparent manner.
